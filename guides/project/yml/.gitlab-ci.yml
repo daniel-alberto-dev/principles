@@ -1,0 +1,22 @@
+image: node:14-alpine
+
+stages:
+  - test
+
+validate_code:
+  stage: test
+  tags:
+    - docker
+
+  script:
+    - echo "Install dependencies"
+    - yarn install --frozen-lockfile
+
+    - echo "Run prettier check"
+    - yarn run prettier
+
+    # - echo "Run linter"
+    # - yarn run lint
+
+    # - echo "Run unit tests"
+    # - yarn run test
