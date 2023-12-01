@@ -1,6 +1,6 @@
 # Principles
 
-The principles that the JSnake team is guided by when developing projects.
+The principles that the team is guided by when developing projects.
 
 ## Rules
 
@@ -17,7 +17,7 @@ The principles that the JSnake team is guided by when developing projects.
 
 # Principles
 
-Принципы, которыми руководствуется команда JSnake при разработке проектов.
+Принципы, которыми руководствуется команда при разработке проектов.
 
 ## Правила
 
